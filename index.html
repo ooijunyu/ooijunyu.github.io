@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Template Page</title>
+		<link rel="icon" type="image/png" href="" /> <!-- put icon in tab, cannot use gif and jpg-->
+		<script src="https://kit.fontawesome.com/7897914a75.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<main>
+			<p>THIS IS MY MAIN CODE</p>
+		</main>
+
+		<hr>
+
+		<figure>
+			<img src="zoombackground.jpg" alt="Zoom Background" width="50%"> <!-- using percentage scales with the window size-->
+			<figcaption>Zoom Background</figcaption>
+		</figure>
+
+		<hr>
+
+		<a href="https://www.twitter.com" aria-label="Twitter" title="Twitter" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
+        
+        <hr>
+        
+        <video src="TheShipperEp02P4.mp4#t=01:00" width="50%" autoplay controls loop>
+            Your browser does not support the <code>video</code> element.
+        </video> <!-- add #t=01:00 to start at 01:00, applicable to audio -->
+        
+        <hr>
+        
+        <audio src="Poppy-Moshi%20Moshi.mp3" controls>
+            Poppy - Moshi Moshi
+        </audio>
+        
+        <hr>
+        
+        <table>
+            <tr><th>1</th><th>2</th><th>3</th></tr>
+            <tr><td>One</td><td>Two</td><td>Three</td></tr>
+            <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+            <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+        	<tr>
+        		<th>Child's Name:</th><th>Parent's Name:</th>
+        	</tr>
+        	<tr>
+        		<td rowspan="2">Catherine</td><td>Michael McCarthy</td>
+        	</tr>
+        	<tr>
+        		<td>Colleen McCarthy</td>
+        	</tr>
+        	<tr>
+        		<td>Maggie</td><td>Sheila McGee</td>
+        	</tr>
+        	<tr>
+        		<td rowspan="2">Edward</td><td>Catherine Howard</td>
+        	</tr>
+        	<tr>
+        		<td>Jeff Howard</td>
+        	</tr>
+        </table>
+        <caption>Table 1</caption>
+
+        <hr>
+
+        <h1>Some common block tags</h1>
+
+        <h2>details</h2>
+		<details>
+			<summary>Used of details</summary>
+			<p>The &lt;details&gt; element is used in conjunction with the &lt;summary&gt; tag. It is one of the tags that was created in response to the repeated use of scripting to open and close content. It is not supported by all of the browsers yet though. </p>
+		</details>
+
+		<p><strong>Note:</strong> The details element is not supported in Edge (prior version 79).</p>
+
+		<p>Everything inside details will be hid inside the summary tags</p>
+
+		<hr>
+
+		<h2>address</h2>
+		<p>The &lt;address&gt; element indicates that the text is an address specific to the page, perharps contact information for the author</p>
+		<address>11 Nanyang Crescent</address>
+
+		<hr>
+
+		<h2>blockquote</h2>
+		<p>The &lt;blockquote&gt; element is used for extended quotations. It should include the cite attribute in order to show or link to the source of the quote.</p>
+		<blockquote cite="http://www.worldwildlife.org/who/index.html">
+			For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+		</blockquote>
+
+		<hr>
+
+		<h1>Some common inline tags</h1>
+		<h2>Citing a source - cite</h2>
+		<p>The &lt;cite&gt; makes it much easier for people and bots to search the code for this specific information.</p>
+		<p>A greate reference for these and other elements is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><cite>https://developer.mozilla.org/en-US/docs/Web/HTML</cite></a></p>
+
+		<hr>
+
+		<h2>Defining your abbreviations - abbr</h2>
+		<p>The &lt;abbr&gt; will display an abbreviation on the browser. But if a title attribute is specified in the tag, the title will appear when the mouse hovers over the abbreviation. SCreen readers also provide the title information.</p>
+		<p>The days of the week are often abbreviated: <abbr title="Sunday">Sun</abbr>, <abbr title="Monday">Mon</abbr>, <abbr title="Tuesday">Tues</abbr>, etc.</p>
+
+		<hr>
+
+		<h2>Speicifying the use of time - time</h2>
+		<p>The &lt;time&gt; is again a completely semantic tag that can be used to search for specific information</p>
+		<p>The party starts at <time>9:00p.m.</time></p>
+		<p>The party took place on <time>New Year's Eve</time></p>
+
+		<hr>
+
+		<h2>Identifying code fragments - code</h2>
+		<p>The &lt;code&gt; element tends to be displayed in a different font, but also has the semantic meaning to convey information to as many people as possible.</p>
+		<p>I have been trying to learn how to write html but my <code>img</code> elements never seem to work.</p>
+
+		<hr>
+
+		<h2>Using subscripts and superscripts - sub and sup</h2>
+		<p>The &lt;sub&gt; and &lt;sup&gt; elements are used to create the super and subscripts, e.g. (x+y)<sup>3</sup> or H<sub>2</sub>O. In the past, people would often paste mathematical images into the page. But images didn't convey the same meaning to all users.</p>
+
+		<hr>
+
+		<footer>
+			<p>This is a footer</p>
+		</footer>
+	</body>
+</html>
